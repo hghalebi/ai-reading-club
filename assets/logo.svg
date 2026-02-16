@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AI Reading Club</title>
+  <desc id="desc">An open book with attention arcs connecting points across the pages.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="56" y1="48" x2="456" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="0.55" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#f0fdf4"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+
+    <linearGradient id="accent" x1="160" y1="220" x2="372" y2="316" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="32" y="32" width="448" height="448" rx="120" fill="url(#bg)"/>
+
+  <!-- Subtle tokens -->
+  <g opacity="0.22" fill="#0f172a">
+    <rect x="92" y="118" width="18" height="18" rx="5"/>
+    <rect x="408" y="122" width="16" height="16" rx="5"/>
+    <rect x="430" y="364" width="18" height="18" rx="5"/>
+    <rect x="84" y="378" width="14" height="14" rx="5"/>
+  </g>
+
+  <!-- Book -->
+  <g filter="url(#shadow)">
+    <!-- Left page -->
+    <path
+      d="M124 184 C170 156 214 156 256 182 L256 372 C214 350 170 350 124 372 Z"
+      fill="#ffffff"
+      stroke="#0f172a"
+      stroke-width="14"
+      stroke-linejoin="round"
+    />
+
+    <!-- Right page -->
+    <path
+      d="M388 184 C342 156 298 156 256 182 L256 372 C298 350 342 350 388 372 Z"
+      fill="#ffffff"
+      stroke="#0f172a"
+      stroke-width="14"
+      stroke-linejoin="round"
+    />
+
+    <!-- Spine -->
+    <path
+      d="M256 176 L256 378"
+      fill="none"
+      stroke="#0f172a"
+      stroke-width="14"
+      stroke-linecap="round"
+    />
+
+    <!-- Page text lines -->
+    <g opacity="0.18" stroke="#0f172a" stroke-width="10" stroke-linecap="round">
+      <path d="M156 236 C188 224 214 224 240 236"/>
+      <path d="M156 276 C188 264 214 264 240 276"/>
+      <path d="M156 316 C188 304 214 304 240 316"/>
+
+      <path d="M272 236 C298 224 324 224 356 236"/>
+      <path d="M272 276 C298 264 324 264 356 276"/>
+      <path d="M272 316 C298 304 324 304 356 316"/>
+    </g>
+  </g>
+
+  <!-- Attention arcs -->
+  <g fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round">
+    <path d="M178 252 C226 214 286 214 334 252"/>
+    <path d="M176 286 C226 254 286 254 336 286"/>
+    <path d="M182 320 C230 302 282 302 330 320"/>
+  </g>
+
+  <!-- Nodes -->
+  <g fill="#ffffff" stroke="#0f172a" stroke-width="10">
+    <circle cx="178" cy="252" r="12"/>
+    <circle cx="334" cy="252" r="12"/>
+
+    <circle cx="176" cy="286" r="12"/>
+    <circle cx="336" cy="286" r="12"/>
+
+    <circle cx="182" cy="320" r="12"/>
+    <circle cx="330" cy="320" r="12"/>
+  </g>
+</svg>
+

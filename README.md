@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="AI Reading Club logo" width="160" />
+</p>
+
 # AI Reading Club
 
 A lightweight GitHub repo to run an AI Reading Club around foundational LLM papers.
