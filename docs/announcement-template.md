@@ -21,9 +21,10 @@ We will not just skim abstracts. We will focus on concepts, architectural trade-
 
 ## Logistics
 
-- Cadence: Biweekly (one paper every two weeks)
+- Cadence: Biweekly (every two weeks on Wednesdays)
+- Start date: 2026-03-04 (Wednesday)
 - Schedule: [Day] at [Time] [Time zone]
 - Format: 10-15 minute summary by a volunteer, then 45 minutes discussion
+- No-session periods: August (summer break) and major holidays
 - First session: Neural Machine Translation of Rare Words with Subword Units (BPE)
 - Join link: [Discord / Zoom / Meetup]
-
