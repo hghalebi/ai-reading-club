@@ -6,7 +6,7 @@ A lightweight GitHub repo to run an AI Reading Club around foundational LLM pape
 
 - Cadence: Biweekly (one paper every two weeks)
 - Format: 10-15 minute volunteer summary, then ~45 minutes discussion
-- Joining: Add your Discord/Zoom/Meetup link here
+- Joining (Discord): https://discord.gg/QhteuPUNYt
 - Schedule: `sessions/schedule-2026.md` (starts 2026-03-04, Wednesdays; August is off)
 
 See:
