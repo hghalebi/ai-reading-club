@@ -59,9 +59,17 @@ This curriculum is organized so earlier papers provide prerequisites for later o
    - Why here: shows that small, curated datasets can teach chat-style behavior.
    - Paper: https://arxiv.org/abs/2305.11206
 
+## Supplemental Papers (Added, Not in 2026 Schedule Yet)
+
+1. Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning (2021)
+   - Why here: shows that fine-tuning often lives in a low-dimensional subspace, which motivates low-rank adaptation methods like LoRA.
+   - Paper: https://arxiv.org/abs/2012.13255
+2. Deduplicating Training Data Makes Language Models Better (2022)
+   - Why here: demonstrates that data deduplication improves both efficiency and quality, reinforcing the importance of dataset curation.
+   - Paper: https://arxiv.org/abs/2107.06499
+
 ## Optional: PDF Hosting
 
 This repo intentionally does not include PDFs.
 
 If you want a shared folder, use Google Drive/Notion, or link to tools like arxiv-vanity.
-
