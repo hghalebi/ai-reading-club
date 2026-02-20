@@ -68,8 +68,3 @@ This curriculum is organized so earlier papers provide prerequisites for later o
    - Why here: demonstrates that data deduplication improves both efficiency and quality, reinforcing the importance of dataset curation.
    - Paper: https://arxiv.org/abs/2107.06499
 
-## Optional: PDF Hosting
-
-This repo intentionally does not include PDFs.
-
-If you want a shared folder, use Google Drive/Notion, or link to tools like arxiv-vanity.
