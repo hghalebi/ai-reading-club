@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["find_most_frequent_pair","preprocess_spaces_as_leading_marker","replace_pair","split_by_leading_spaces_marker","split_with_newline_keepers","unique_char_symbols"]};
