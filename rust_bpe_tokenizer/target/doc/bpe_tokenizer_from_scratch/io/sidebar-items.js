@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["read_json_value","read_text_file","save_json_file"]};

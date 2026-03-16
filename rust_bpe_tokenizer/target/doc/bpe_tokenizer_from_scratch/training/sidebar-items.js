@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["add_allowed_special_tokens","append_merged_symbols","ensure_control_symbol_mapping","learn_merge_rules","parse_openai_merges","validate_required_openai_ids"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["DEMO_DIR","DEMO_TEXT","DEMO_VOCAB_SIZE","ENV_OPENAI_ENCODER","ENV_OPENAI_MERGES"],"fn":["main","run_artifact_roundtrip_demo","run_frequency_demo","run_openai_demo","run_training_demo"],"mod":["encoding","io","tokenizer","training","util"]};
