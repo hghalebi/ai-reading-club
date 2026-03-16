@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: LoRA: Low-Rank Adaptation of Large Language Models (2021)
-- Link: https://arxiv.org/abs/2106.09685
-- Date: 2026-07-08 (Wednesday)
+- Paper: Attention Is All You Need (2017)
+- Link: https://arxiv.org/abs/1706.03762
+- Date: 2026-03-25 (Wednesday)
 - Discussion lead:
 - Attendees:
 

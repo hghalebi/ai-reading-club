@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Reading Club — Event Poster</title>
+  <style>
+    :root {
+      --bg: linear-gradient(135deg, #f4ecff 0%, #e8f8ff 35%, #fff2e6 70%, #e9f7eb 100%);
+      --ink: #15213a;
+      --muted: #44506e;
+      --line: #d3dff2;
+      --accent: #235bd8;
+      --accent-soft: #6f3bd6;
+      --accent-warm: #f18f4c;
+      --panel-shadow: 0 18px 42px rgba(20, 35, 75, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+    }
+
+    main {
+      width: min(820px, 100%);
+      border: 1px solid var(--line);
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: var(--panel-shadow);
+      background: linear-gradient(180deg, #ffffff 0%, #f8faff 72%, #fff7f2 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    main::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(165deg, transparent 56%, rgba(110, 78, 214, 0.1) 56%),
+        linear-gradient(12deg, rgba(34, 108, 237, 0.06) 0%, rgba(241, 143, 76, 0.08) 40%, transparent 80%);
+      pointer-events: none;
+    }
+
+    .brand {
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      color: var(--accent-soft);
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .brand::after {
+      content: "";
+      display: block;
+      width: 54px;
+      height: 2px;
+      margin-top: 0.55rem;
+      background: linear-gradient(90deg, var(--accent), var(--accent-warm));
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3vw, 2.2rem);
+      line-height: 1.25;
+      font-weight: 700;
+      color: #19284f;
+    }
+
+    .tagline {
+      margin-top: 0.7rem;
+      color: var(--muted);
+      font-size: 1.02rem;
+      max-width: 65ch;
+      line-height: 1.6;
+    }
+
+    .poster-image {
+      margin: 1.25rem 0;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .poster-image img {
+      display: block;
+      width: 100%;
+      height: clamp(160px, 22vw, 260px);
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 2rem;
+      gap: 1.2rem;
+    }
+
+    .section {
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+      position: relative;
+    }
+
+    h2 {
+      margin: 0 0 0.7rem;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent-soft);
+    }
+
+    .grid {
+      position: relative;
+    }
+
+    .grid::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 1rem;
+      width: 1px;
+      height: calc(100% - 2rem);
+      background: linear-gradient(180deg, transparent, var(--accent-soft), transparent);
+      transform: translateX(-0.5px);
+      opacity: 0.6;
+    }
+
+    @media (max-width: 700px) {
+      .grid::after {
+        display: none;
+      }
+    }
+
+    .section:nth-of-type(2) h2 {
+      color: var(--accent-warm);
+    }
+
+    .item {
+      margin: 0.45rem 0;
+      color: #2b3853;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .value {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 2rem;
+      border-top: 1px solid var(--line);
+      padding-top: 0.9rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      color: var(--accent-soft);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+      }
+
+      main {
+        border: none;
+        box-shadow: none;
+        width: 100%;
+      }
+
+      main::before,
+      .grid::after {
+        display: none;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">AI Reading Club</div>
+
+    <h1>Paper: Neural Machine Translation of Rare Words with Subword Units (BPE, 2015)</h1>
+
+    <p class="tagline">
+      A biweekly reading session focused on the papers that built modern LLMs and the engineering
+      ideas behind them (tokenization, self-attention, decoding, efficiency, and alignment).
+    </p>
+
+    <div class="poster-image">
+      <img
+        src="/Users/hamzeghalebi/Downloads/505c36f7-ca1e-415d-b3b5-3cf3453188b6.avif"
+        alt="Session event visual"
+      />
+    </div>
+
+    <div class="grid">
+      <section class="section">
+        <h2>Event</h2>
+        <p class="item"><span class="value">Date:</span> Wednesday, March 4, 2026</p>
+        <p class="item"><span class="value">Time:</span> 6:30 PM - 7:30 PM</p>
+      </section>
+
+      <section class="section">
+        <h2>How it works</h2>
+        <p class="item"><span class="value">Cadence:</span> every two Wednesdays</p>
+        <p class="item"><span class="value">Flow:</span> 10-15 minute volunteer summary + ~45 minute discussion</p>
+        <p class="item"><span class="value">Schedule:</span> starts Mar 4, 2026 · no sessions in August</p>
+        <p class="item"><span class="value">Holiday rule:</span> skip holiday week and meet next Wednesday</p>
+      </section>
+    </div>
+
+    <footer>
+      AI Reading Club • Paris, Île-de-France
+    </footer>
+  </main>
+</body>
+</html>

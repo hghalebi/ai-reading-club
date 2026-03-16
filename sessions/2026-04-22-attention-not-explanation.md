@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: The Curious Case of Neural Text Degeneration (2019)
-- Link: https://arxiv.org/abs/1904.09751
-- Date: 2026-05-13 (Wednesday)
+- Paper: Attention is not Explanation (2019)
+- Link: https://arxiv.org/abs/1902.10186
+- Date: 2026-04-22 (Wednesday)
 - Discussion lead:
 - Attendees:
 

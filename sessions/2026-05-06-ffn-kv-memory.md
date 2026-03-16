@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: Neural Machine Translation of Rare Words with Subword Units (2015) (BPE)
-- Link: https://arxiv.org/abs/1508.07909
-- Date: 2026-03-04 (Wednesday)
+- Paper: Transformer Feed-Forward Layers Are Key-Value Memories (2020)
+- Link: https://arxiv.org/abs/2012.14913
+- Date: 2026-05-06 (Wednesday)
 - Discussion lead:
 - Attendees:
 

@@ -11,7 +11,7 @@ A lightweight GitHub repo to run an AI Reading Club around foundational LLM pape
 - Cadence: Biweekly (one paper every two weeks)
 - Format: 10-15 minute volunteer summary, then ~45 minutes discussion
 - Joining (Discord): https://discord.gg/QhteuPUNYt
-- Schedule: `sessions/schedule-2026.md` (starts 2026-03-04, Wednesdays; August is off)
+- Schedule: `sessions/schedule-2026.md` (starts 2026-03-11, Wednesdays; August is off)
 
 See:
 
@@ -66,4 +66,7 @@ More detail (including rationale and links) lives in `curriculum/README.md`.
 - `curriculum/`: the ordered reading list + paper links
 - `docs/`: announcement + organizer docs
 - `sessions/`: meeting notes and templates
+- `sections/`: workshop and implementation assets grouped by module (including BPE tutorial materials in `sections/tokenization/`)
+- `sections/tokenization/ch02/`: BPE notebook walkthrough and assets
+- `sections/tokenization/rust_bpe_tokenizer/`: Rust BPE implementation used in the same module
 - `.github/`: issue templates and PR template

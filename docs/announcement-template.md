@@ -22,7 +22,7 @@ We will not just skim abstracts. We will focus on concepts, architectural trade-
 ## Logistics
 
 - Cadence: Biweekly (every two weeks on Wednesdays)
-- Start date: 2026-03-04 (Wednesday)
+- Start date: 2026-03-11 (Wednesday)
 - Schedule: [Day] at [Time] [Time zone]
 - Format: 10-15 minute summary by a volunteer, then 45 minutes discussion
 - No-session periods: August (summer break) and major holidays

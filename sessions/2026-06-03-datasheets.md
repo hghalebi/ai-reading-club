@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale (2022)
-- Link: https://arxiv.org/abs/2208.07339
-- Date: 2026-06-24 (Wednesday)
+- Paper: Datasheets for Datasets (2018)
+- Link: https://arxiv.org/abs/1803.09010
+- Date: 2026-06-03 (Wednesday)
 - Discussion lead:
 - Attendees:
 

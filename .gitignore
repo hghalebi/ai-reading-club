@@ -9,5 +9,5 @@ node_modules/
 dist/
 build/
 coverage/
+target/
 *.pdf
-

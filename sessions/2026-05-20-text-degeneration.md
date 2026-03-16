@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: Transformer Feed-Forward Layers Are Key-Value Memories (2020)
-- Link: https://arxiv.org/abs/2012.14913
-- Date: 2026-04-29 (Wednesday)
+- Paper: The Curious Case of Neural Text Degeneration (2019)
+- Link: https://arxiv.org/abs/1904.09751
+- Date: 2026-05-20 (Wednesday)
 - Discussion lead:
 - Attendees:
 

@@ -2,7 +2,7 @@
 
 - Paper: What Does BERT Look At? An Analysis of BERT's Attention (2019)
 - Link: https://arxiv.org/abs/1906.04341
-- Date: 2026-04-01 (Wednesday)
+- Date: 2026-04-08 (Wednesday)
 - Discussion lead:
 - Attendees:
 

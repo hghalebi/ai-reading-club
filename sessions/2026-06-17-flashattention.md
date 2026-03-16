@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: Attention Is All You Need (2017)
-- Link: https://arxiv.org/abs/1706.03762
-- Date: 2026-03-18 (Wednesday)
+- Paper: FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
+- Link: https://arxiv.org/abs/2205.14135
+- Date: 2026-06-17 (Wednesday)
 - Discussion lead:
 - Attendees:
 
