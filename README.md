@@ -69,4 +69,5 @@ More detail (including rationale and links) lives in `curriculum/README.md`.
 - `sections/`: workshop and implementation assets grouped by module (including BPE tutorial materials in `sections/tokenization/`)
 - `sections/tokenization/ch02/`: BPE notebook walkthrough and assets
 - `sections/tokenization/rust_bpe_tokenizer/`: Rust BPE implementation used in the same module
+- `sections/bert_attention_paper/`: Rust walkthrough that reimplements the BERT attention-analysis paper with runnable step-by-step binaries
 - `.github/`: issue templates and PR template

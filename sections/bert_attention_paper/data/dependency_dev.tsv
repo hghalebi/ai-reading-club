@@ -1,0 +1,50 @@
+The	2	det
+doctor	3	nsubj
+opened	0	root
+the	5	det
+door	3	dobj
+.	3	punct
+
+Their	2	poss
+company	3	nsubj
+shipped	0	root
+the	5	det
+package	3	dobj
+to	3	prep
+London	6	pobj
+.	3	punct
+
+The	2	det
+cake	4	nsubjpass
+was	4	auxpass
+eaten	0	root
+by	4	prep
+guests	5	pobj
+.	4	punct
+
+The	2	det
+child	3	nsubj
+found	0	root
+the	5	det
+toy	3	dobj
+under	3	prep
+the	8	det
+table	6	pobj
+.	3	punct
+
+Because	3	mark
+she	3	nsubj
+smiled	7	advcl
+,	7	punct
+the	6	det
+crowd	7	nsubj
+cheered	0	root
+.	7	punct
+
+The	2	det
+manager	3	nsubj
+said	0	root
+the	5	det
+plan	6	nsubj
+failed	3	ccomp
+.	3	punct

@@ -10,4 +10,5 @@ dist/
 build/
 coverage/
 target/
+.cache/
 *.pdf
