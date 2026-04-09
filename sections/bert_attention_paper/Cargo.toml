@@ -1,0 +1,19 @@
+[package]
+name = "bert-attention-paper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core = "0.10.2"
+candle-nn = "0.10.2"
+clap = { version = "4.5.38", features = ["derive"] }
+hf-hub = "0.5.0"
+itertools = "0.14.0"
+nalgebra = "0.33.2"
+rand = { version = "0.8.5", features = ["std", "std_rng"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+thiserror = "2.0.17"
+tokenizers = { version = "0.22.2", default-features = false, features = ["onig"] }
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "fmt"] }

@@ -10,7 +10,7 @@ Breaks:
 | # | Date (Wed) | Paper | Notes |
 | --- | --- | --- | --- |
 | 1 | 2026-03-11 | Neural Machine Translation of Rare Words with Subword Units (2015) | `sessions/2026-03-11-bpe.md` |
-| 2 | 2026-03-25 | Attention Is All You Need (2017) | `sessions/2026-03-25-transformer.md` |
+| 2 | 2026-03-26 | Attention Is All You Need (2017) | `sessions/2026-03-26-transformer.md` |
 | 3 | 2026-04-08 | What Does BERT Look At? An Analysis of BERT's Attention (2019) | `sessions/2026-04-08-bert-attention.md` |
 | 4 | 2026-04-22 | Attention is not Explanation (2019) | `sessions/2026-04-22-attention-not-explanation.md` |
 | 5 | 2026-05-06 | Transformer Feed-Forward Layers Are Key-Value Memories (2020) | `sessions/2026-05-06-ffn-kv-memory.md` |
@@ -24,4 +24,3 @@ Breaks:
 |  | 2026-08-26 | No session (August break) |  |
 | 12 | 2026-09-09 | The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023) | `sessions/2026-09-09-flan.md` |
 | 13 | 2026-09-23 | LIMA: Less Is More for Alignment (2023) | `sessions/2026-09-23-lima.md` |
-

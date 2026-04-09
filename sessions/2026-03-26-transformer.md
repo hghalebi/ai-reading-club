@@ -2,7 +2,7 @@
 
 - Paper: Attention Is All You Need (2017)
 - Link: https://arxiv.org/abs/1706.03762
-- Date: 2026-03-25 (Wednesday)
+- Date: 2026-03-26 (Thursday)
 - Discussion lead:
 - Attendees:
 
@@ -23,4 +23,3 @@
 ## Action Items
 
 - [ ]
-
