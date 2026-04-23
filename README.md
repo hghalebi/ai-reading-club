@@ -10,7 +10,7 @@ A lightweight repository for running an AI Reading Club on foundational papers i
 
 - Cadence: one paper every two weeks
 - Format: 10-15 minute volunteer overview, followed by about 45 minutes of discussion
-- Joining (Discord): https://discord.gg/QhteuPUNYt
+- Joining (Discord): https://discord.gg/5rAMsuVXXp
 - Schedule: `sessions/schedule-2026.md` (starts on 2026-03-11; from 2026-05-14 onwards, sessions continue on Thursdays; no sessions in August)
 
 See:

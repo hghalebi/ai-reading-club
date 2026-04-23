@@ -28,4 +28,4 @@ The goal is to understand the central ideas, the engineering trade-offs, and the
 - Format: 10-15 minute overview by a volunteer, followed by about 45 minutes of discussion
 - No-session periods: August (summer break) and major holidays
 - First session: Neural Machine Translation of Rare Words with Subword Units (BPE)
-- Join link (Discord): https://discord.gg/QhteuPUNYt
+- Join link (Discord): https://discord.gg/5rAMsuVXXp

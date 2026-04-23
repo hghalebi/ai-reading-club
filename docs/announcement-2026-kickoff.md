@@ -26,7 +26,7 @@ The club starts on **Wednesday, 2026-03-11**. From **Thursday, 2026-05-14** onwa
 
 ### Join
 
-- Discord: https://discord.gg/QhteuPUNYt
+- Discord: https://discord.gg/5rAMsuVXXp
 
 ### Schedule and materials
 
