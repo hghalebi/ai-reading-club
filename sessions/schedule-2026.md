@@ -1,6 +1,6 @@
 # 2026 Session Schedule
 
-Cadence: sessions start on **2026-03-11**. Sessions 1-4 remain on Wednesdays. Starting with session 5, the club resumes on **Thursday, 2026-05-14** and then continues every two weeks on Thursdays.
+Cadence: sessions start on **2026-03-11**. Follow the dated schedule below for the March-April sessions. Starting with session 5, the club resumes on **Thursday, 2026-05-14** and then continues every two weeks on Thursdays.
 
 Breaks:
 
@@ -10,7 +10,7 @@ Breaks:
 | # | Date | Paper | Notes |
 | --- | --- | --- | --- |
 | 1 | 2026-03-11 | Neural Machine Translation of Rare Words with Subword Units (2015) | `sessions/2026-03-11-bpe.md` |
-| 2 | 2026-03-25 | Attention Is All You Need (2017) | `sessions/2026-03-25-transformer.md` |
+| 2 | 2026-03-26 | Attention Is All You Need (2017) | `sessions/2026-03-26-transformer.md` |
 | 3 | 2026-04-08 | What Does BERT Look At? An Analysis of BERT's Attention (2019) | `sessions/2026-04-08-bert-attention.md` |
 | 4 | 2026-04-22 | Attention is not Explanation (2019) | `sessions/2026-04-22-attention-not-explanation.md` |
 | 5 | 2026-05-14 | Transformer Feed-Forward Layers Are Key-Value Memories (2020) | `sessions/2026-05-14-ffn-kv-memory.md` |

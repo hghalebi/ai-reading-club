@@ -9,11 +9,6 @@ node_modules/
 dist/
 build/
 coverage/
-<<<<<<< ours
 target/
 .cache/
-||||||| ancestor
-=======
-target/
->>>>>>> theirs
 *.pdf
