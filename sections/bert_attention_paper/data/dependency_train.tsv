@@ -1,0 +1,100 @@
+The	2	det
+student	3	nsubj
+read	0	root
+the	5	det
+book	3	dobj
+.	3	punct
+
+The	2	det
+student	3	nsubj
+looked	0	root
+at	3	prep
+the	6	det
+chart	4	pobj
+.	3	punct
+
+Her	2	poss
+team	3	nsubj
+won	0	root
+the	5	det
+match	3	dobj
+.	3	punct
+
+The	2	det
+meal	4	nsubjpass
+was	4	auxpass
+cooked	0	root
+by	4	prep
+Nora	5	pobj
+.	4	punct
+
+The	3	det
+talented	3	amod
+artist	4	nsubj
+painted	0	root
+a	6	det
+mural	4	dobj
+carefully	4	advmod
+.	4	punct
+
+Because	3	mark
+it	3	nsubj
+rained	7	advcl
+,	7	punct
+the	6	det
+game	7	nsubj
+ended	0	root
+.	7	punct
+
+The	2	det
+teacher	3	nsubj
+spoke	0	root
+to	3	prep
+the	6	det
+parents	4	pobj
+yesterday	3	advmod
+.	3	punct
+
+My	2	poss
+friend	3	nsubj
+found	0	root
+a	5	det
+wallet	3	dobj
+on	3	prep
+the	8	det
+train	6	pobj
+.	3	punct
+
+The	2	det
+editor	3	nsubj
+said	0	root
+the	5	det
+article	6	nsubj
+mattered	3	ccomp
+.	3	punct
+
+The	2	det
+cat	3	nsubj
+chased	0	root
+the	5	det
+mouse	3	dobj
+quickly	3	advmod
+.	3	punct
+
+The	2	det
+engineers	3	nsubj
+built	0	root
+a	5	det
+bridge	3	dobj
+near	3	prep
+Paris	6	pobj
+.	3	punct
+
+His	2	poss
+sister	3	nsubj
+sent	0	root
+the	5	det
+letter	3	dobj
+from	3	prep
+Berlin	6	pobj
+.	3	punct

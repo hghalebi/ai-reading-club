@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
-- Link: https://arxiv.org/abs/2205.14135
-- Date: 2026-06-17 (Wednesday)
+- Paper: Transformer Feed-Forward Layers Are Key-Value Memories (2020)
+- Link: https://arxiv.org/abs/2012.14913
+- Date: 2026-05-14 (Thursday)
 - Discussion lead:
 - Attendees:
 
@@ -23,4 +23,3 @@
 ## Action Items
 
 - [ ]
-

@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023)
-- Link: https://arxiv.org/abs/2301.13688
-- Date: 2026-09-09 (Wednesday)
+- Paper: Datasheets for Datasets (2018)
+- Link: https://arxiv.org/abs/1803.09010
+- Date: 2026-06-11 (Thursday)
 - Discussion lead:
 - Attendees:
 
@@ -23,4 +23,3 @@
 ## Action Items
 
 - [ ]
-

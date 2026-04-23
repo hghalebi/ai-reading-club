@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: LoRA: Low-Rank Adaptation of Large Language Models (2021)
-- Link: https://arxiv.org/abs/2106.09685
-- Date: 2026-07-15 (Wednesday)
+- Paper: Croissant: A Metadata Format for ML-Ready Datasets (2024)
+- Link: https://arxiv.org/abs/2403.19546
+- Date: 2026-06-25 (Thursday)
 - Discussion lead:
 - Attendees:
 
@@ -23,4 +23,3 @@
 ## Action Items
 
 - [ ]
-

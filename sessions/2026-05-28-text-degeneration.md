@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: QLoRA: Efficient Finetuning of Quantized LLMs (2023)
-- Link: https://arxiv.org/abs/2305.14314
-- Date: 2026-07-29 (Wednesday)
+- Paper: The Curious Case of Neural Text Degeneration (2019)
+- Link: https://arxiv.org/abs/1904.09751
+- Date: 2026-05-28 (Thursday)
 - Discussion lead:
 - Attendees:
 
@@ -23,4 +23,3 @@
 ## Action Items
 
 - [ ]
-
