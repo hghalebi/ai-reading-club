@@ -11,7 +11,7 @@ A lightweight GitHub repo to run an AI Reading Club around foundational LLM pape
 - Cadence: Biweekly (one paper every two weeks)
 - Format: 10-15 minute volunteer summary, then ~45 minutes discussion
 - Joining (Discord): https://discord.gg/QhteuPUNYt
-- Schedule: `sessions/schedule-2026.md` (starts 2026-03-11, Wednesdays; August is off)
+- Schedule: `sessions/schedule-2026.md` (starts 2026-03-11; from 2026-05-14 onward sessions continue on Thursdays; August is off)
 
 See:
 
@@ -19,7 +19,7 @@ See:
 - `docs/why-read.md` (motivation)
 - `docs/organizer-tips.md` (practical tips)
 
-## Curriculum (13 papers, reordered)
+## Curriculum (14 papers, reordered)
 
 ### Module 1: Foundations & Architecture
 
@@ -39,18 +39,19 @@ See:
 ### Module 4: The Data Foundation
 
 7. Datasheets for Datasets (2018)
+8. Croissant: A Metadata Format for ML-Ready Datasets (2024)
 
 ### Module 5: Efficiency & Scaling
 
-8. FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
-9. LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale (2022)
+9. FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
+10. LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale (2022)
 
 ### Module 6: Fine-Tuning & Alignment
 
-10. LoRA: Low-Rank Adaptation of Large Language Models (2021)
-11. QLoRA: Efficient Finetuning of Quantized LLMs (2023)
-12. The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023)
-13. LIMA: Less Is More for Alignment (2023)
+11. LoRA: Low-Rank Adaptation of Large Language Models (2021)
+12. QLoRA: Efficient Finetuning of Quantized LLMs (2023)
+13. The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023)
+14. LIMA: Less Is More for Alignment (2023)
 
 More detail (including rationale and links) lives in `curriculum/README.md`.
 

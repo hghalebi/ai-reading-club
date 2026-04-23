@@ -4,7 +4,7 @@ Create one issue per paper using the "Paper Session" template, then capture note
 
 Schedule:
 
-- `sessions/schedule-2026.md` (biweekly Wednesdays starting 2026-03-11; no sessions in August)
+- `sessions/schedule-2026.md` (starts 2026-03-11; from 2026-05-14 onward sessions continue on Thursdays; no sessions in August)
 
 Suggested filename pattern:
 
