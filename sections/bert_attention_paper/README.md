@@ -1,13 +1,13 @@
-# Rust BERT attention paper tutorial
+# Rust BERT Attention Paper Tutorial
 
 This section is a pedagogical Rust reimplementation of:
 
-> What Does BERT Look At? An Analysis of BERT's Attention  
+> What Does BERT Look At? An Analysis of BERT's Attention
 > Kevin Clark, Urvashi Khandelwal, Omer Levy, Christopher D. Manning (2019)
 
-The project is organized as a sequence of runnable steps. Each step compiles and runs on its own, and the final binary combines them into one paper-style walkthrough.
+The project is organised as a sequence of runnable steps. Each step compiles and runs on its own, and the final binary combines them into one paper-style walkthrough.
 
-## What this project reimplements
+## What This Project Reimplements
 
 - loading a pretrained BERT model and exposing all self-attention heads
 - converting token-level attention maps to word-level attention maps
@@ -20,7 +20,7 @@ The project is organized as a sequence of runnable steps. Each step compiles and
 - attention-only and attention-plus-word probes from section 5
 - Jensen-Shannon head distances plus 2D head clustering from section 6
 
-## Important scope decision
+## Important Scope Decision
 
 The original paper used licensed Penn Treebank and CoNLL-2012 data. This tutorial ships with small open pedagogical datasets instead, so every step runs from a clean checkout. The code paths are the same style as the paper, but the default numbers are demo-scale rather than benchmark-scale.
 
@@ -41,7 +41,7 @@ All binaries default to `google-bert/bert-base-uncased`.
 Model files are cached under `sections/bert_attention_paper/.cache/huggingface/` by default.
 If you prefer a different cache location, set `HF_HOME` before running.
 
-## Implementation notes
+## Implementation Notes
 
 - The Hugging Face checkpoint is loaded through a minimal Candle-based BERT implementation in `src/bert.rs`.
 - Token-to-word aggregation matches the original analysis code's rule: sum attention into split target wordpieces, then average over split source wordpieces.

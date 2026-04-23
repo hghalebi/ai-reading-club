@@ -2,29 +2,30 @@
 
 ## Headline
 
-Join the AI Reading Club: Unpacking the Evolution of LLMs
+Join the AI Reading Club: Understanding the Papers Behind Modern LLMs
 
 ## Description
 
-Are you tired of just calling AI APIs and want to understand how they work under the hood? We use concepts like tokens, self-attention, LoRA, and top-p sampling every day, but how well do we understand the intuition and trade-offs behind them?
+Many of us use AI systems through APIs, libraries, and product interfaces. This reading club is for people who want to understand the papers behind those systems: tokenisation, self-attention, decoding, dataset documentation, efficient inference, fine-tuning, and alignment.
 
-I am launching an AI Reading Club to read, deconstruct, and discuss 13 research papers that shaped modern Generative AI. We will trace the evolution of large language models from subword tokenization and the original Transformer, through interpretability, efficiency breakthroughs like FlashAttention, and fine-tuning and instruction tuning techniques that power today's assistants.
+We will read and discuss 14 research papers that shaped modern language models. The curriculum starts with subword tokenisation and the original Transformer, then moves through interpretability, decoding, data foundations, efficiency, fine-tuning, instruction tuning, and alignment.
 
-We will not just skim abstracts. We will focus on concepts, architectural trade-offs, and historical context.
+The goal is to understand the central ideas, the engineering trade-offs, and the historical context behind each paper.
 
 ## What We Will Cover
 
-- Architecture: tokenization and the Transformer
+- Architecture: tokenisation and the Transformer
 - Interpretability: what attention and feed-forward layers learn
-- Generation and efficiency: decoding, quantization, and FlashAttention
-- Alignment: instruction tuning, LoRA/QLoRA, and why "less is more" (LIMA)
+- Generation and data: decoding behaviour, dataset documentation, and interoperable metadata
+- Efficiency: FlashAttention and quantisation
+- Fine-tuning and alignment: LoRA, QLoRA, instruction tuning, and LIMA
 
 ## Logistics
 
-- Cadence: Biweekly (every two weeks on Wednesdays)
+- Cadence: one paper every two weeks
 - Start date: 2026-03-11 (Wednesday)
-- Schedule: [Day] at [Time] [Time zone]
-- Format: 10-15 minute summary by a volunteer, then 45 minutes discussion
+- Schedule: see `sessions/schedule-2026.md` for the exact dates
+- Format: 10-15 minute overview by a volunteer, followed by about 45 minutes of discussion
 - No-session periods: August (summer break) and major holidays
 - First session: Neural Machine Translation of Rare Words with Subword Units (BPE)
 - Join link (Discord): https://discord.gg/QhteuPUNYt

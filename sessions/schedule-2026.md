@@ -5,7 +5,7 @@ Cadence: sessions start on **2026-03-11**. Follow the dated schedule below for t
 Breaks:
 
 - August 2026: no sessions (summer break)
-- Holidays: if a session falls on a holiday, skip that week and meet on the next scheduled session date
+- Holidays: if a session falls on a holiday, skip that week and meet on the next scheduled session date.
 
 | # | Date | Paper | Notes |
 | --- | --- | --- | --- |
