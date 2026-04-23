@@ -1,8 +1,7 @@
-# Organizer Tips
+# Organiser Tips
 
-1. Pacing matters: Biweekly is usually the sweet spot for dense papers.
-2. Assign a discussion lead: Each session needs someone to prepare a 3-5 slide, 10-15 minute summary.
-3. Prepare guiding questions: Add 3 open-ended questions before the session to avoid a cold start.
-4. Do not get stuck on the heavy math: Focus on the abstract, intro, diagrams, and conclusion if needed.
-5. Share paper links: Keep one place with links (arXiv, arxiv-vanity, alphaXiv) so participants do not have to hunt.
-
+1. Keep the pace sustainable: one dense paper every two weeks gives people time to read and reflect.
+2. Assign a discussion lead: each session needs someone to prepare 3-5 slides or a short document.
+3. Prepare guiding questions: add three open-ended questions before the session so the discussion has a clear starting point.
+4. Do not get stuck on dense mathematics: focus on the abstract, introduction, diagrams, and conclusion when needed.
+5. Keep paper links in one place: include arXiv, arxiv-vanity, or alphaXiv links so participants do not have to search for them.

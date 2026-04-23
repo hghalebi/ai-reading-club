@@ -1,27 +1,27 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="AI Reading Club logo" width="160" />
+  <img src="assets/log4.png" alt="AI Reading Club logo" width="160" />
 </p>
 
 # AI Reading Club
 
-A lightweight GitHub repo to run an AI Reading Club around foundational LLM papers.
+A lightweight repository for running an AI Reading Club on foundational papers in modern language models.
 
 ## Logistics
 
-- Cadence: Biweekly (one paper every two weeks)
-- Format: 10-15 minute volunteer summary, then ~45 minutes discussion
-- Joining (Discord): https://discord.gg/QhteuPUNYt
-- Schedule: `sessions/schedule-2026.md` (starts 2026-03-11; from 2026-05-14 onward sessions continue on Thursdays; August is off)
+- Cadence: one paper every two weeks
+- Format: 10-15 minute volunteer overview, followed by about 45 minutes of discussion
+- Joining (Discord): https://discord.gg/5rAMsuVXXp
+- Schedule: `sessions/schedule-2026.md` (starts on 2026-03-11; from 2026-05-14 onwards, sessions continue on Thursdays; no sessions in August)
 
 See:
 
-- `docs/announcement-template.md` (copy/paste announcement)
+- `docs/announcement-template.md` (announcement template)
 - `docs/why-read.md` (motivation)
-- `docs/organizer-tips.md` (practical tips)
+- `docs/organizer-tips.md` (organiser tips)
 
-## Curriculum (14 papers, reordered)
+## Curriculum (14 Papers)
 
-### Module 1: Foundations & Architecture
+### Module 1: Foundations and Architecture
 
 1. Neural Machine Translation of Rare Words with Subword Units (2015)
 2. Attention Is All You Need (2017)
@@ -32,7 +32,7 @@ See:
 4. Attention is not Explanation (2019)
 5. Transformer Feed-Forward Layers Are Key-Value Memories (2020)
 
-### Module 3: Generation & Decoding
+### Module 3: Generation and Decoding
 
 6. The Curious Case of Neural Text Degeneration (2019)
 
@@ -41,33 +41,33 @@ See:
 7. Datasheets for Datasets (2018)
 8. Croissant: A Metadata Format for ML-Ready Datasets (2024)
 
-### Module 5: Efficiency & Scaling
+### Module 5: Efficiency and Scaling
 
 9. FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
 10. LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale (2022)
 
-### Module 6: Fine-Tuning & Alignment
+### Module 6: Fine-Tuning and Alignment
 
 11. LoRA: Low-Rank Adaptation of Large Language Models (2021)
 12. QLoRA: Efficient Finetuning of Quantized LLMs (2023)
 13. The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023)
 14. LIMA: Less Is More for Alignment (2023)
 
-More detail (including rationale and links) lives in `curriculum/README.md`.
+Detailed rationale and paper links are in `curriculum/README.md`.
 
-## How To Run Sessions
+## How to Run Sessions
 
 - Create one GitHub issue per paper (use the "Paper Session" issue template).
-- Pick a discussion lead per session; they prepare a short summary deck or doc.
-- Add 3 guiding questions up front to avoid a cold start.
-- If the math gets heavy, focus on the abstract, intro, diagrams, and conclusion.
+- Assign a discussion lead for each session; they prepare a short slide deck or document.
+- Add three guiding questions before the session so the discussion has a clear starting point.
+- If the mathematics is dense, focus on the abstract, introduction, diagrams, and conclusion.
 
-## Repo Layout
+## Repository Layout
 
 - `curriculum/`: the ordered reading list + paper links
-- `docs/`: announcement + organizer docs
-- `sessions/`: meeting notes and templates
-- `sections/`: workshop and implementation assets grouped by module (including BPE tutorial materials in `sections/tokenization/`)
+- `docs/`: announcements and organiser guidance
+- `sessions/`: session notes and templates
+- `sections/`: workshop and implementation assets grouped by module, including BPE materials under `sections/tokenization/`
 - `sections/tokenization/ch02/`: BPE notebook walkthrough and assets
 - `sections/tokenization/rust_bpe_tokenizer/`: Rust BPE implementation used in the same module
 - `sections/bert_attention_paper/`: Rust walkthrough that reimplements the BERT attention-analysis paper with runnable step-by-step binaries
