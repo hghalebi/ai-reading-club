@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="AI Reading Club logo" width="160" />
+  <img src="assets/log4.png" alt="AI Reading Club logo" width="160" />
 </p>
 
 # AI Reading Club
