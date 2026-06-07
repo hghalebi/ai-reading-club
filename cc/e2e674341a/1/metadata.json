@@ -1,0 +1,97 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "cce2e674341a",
+  "session_id": "019ea2c4-1e3a-7072-af5d-bb4a28e551ca",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-07T15:50:04.471204282Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "README.md",
+    "curriculum/README.md",
+    "docs/workshop-history.md",
+    "sessions/2026-06-11-datasheets.md",
+    "sessions/2026-06-25-croissant.md",
+    "sessions/2026-07-09-flashattention.md",
+    "sessions/2026-07-23-llm-int8.md",
+    "sessions/2026-09-03-lora.md",
+    "sessions/2026-09-17-qlora.md",
+    "sessions/2026-10-01-flan.md",
+    "sessions/2026-10-15-lima.md",
+    "sessions/schedule-2026.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-5.5",
+  "turn_id": "3ab56b9b7420",
+  "token_usage": {
+    "input_tokens": 21973,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 103168,
+    "output_tokens": 827,
+    "api_call_count": 6
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-07T15:50:04.460297723Z",
+    "agent_lines": 0,
+    "agent_removed": 1,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 209,
+    "total_committed": 1,
+    "total_lines_changed": 210,
+    "agent_percentage": 0.4761904761904762,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 753,
+      "user_lines_removed": 209,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".codex/agents/entire-search.toml": 23,
+        ".codex/config.toml": 3,
+        ".codex/hooks.json": 52,
+        ".gemini/agents/entire-search.md": 28,
+        ".gemini/settings.json": 141,
+        ".opencode/plugins/entire.ts": 216,
+        ".pi/extensions/entire/index.ts": 73,
+        "README.md": 4,
+        "curriculum/README.md": 3,
+        "docs/workshop-history.md": 2,
+        "sessions/2026-06-25-datasheets.md": 25,
+        "sessions/2026-07-09-croissant.md": 25,
+        "sessions/2026-07-23-flashattention.md": 25,
+        "sessions/2026-09-03-llm-int8.md": 25,
+        "sessions/2026-09-17-lora.md": 25,
+        "sessions/2026-10-01-qlora.md": 25,
+        "sessions/2026-10-15-flan.md": 25,
+        "sessions/2026-10-29-lima.md": 25,
+        "sessions/schedule-2026.md": 8
+      },
+      "user_removed_per_file": {
+        "docs/workshop-history.md": 1,
+        "sessions/2026-06-11-datasheets.md": 25,
+        "sessions/2026-06-25-croissant.md": 25,
+        "sessions/2026-07-09-flashattention.md": 25,
+        "sessions/2026-07-23-llm-int8.md": 25,
+        "sessions/2026-09-03-lora.md": 25,
+        "sessions/2026-09-17-qlora.md": 25,
+        "sessions/2026-10-01-flan.md": 25,
+        "sessions/2026-10-15-lima.md": 25,
+        "sessions/schedule-2026.md": 8
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 753,
+      "agent_lines_removed": 209
+    }
+  ]
+}

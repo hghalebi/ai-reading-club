@@ -1,0 +1,5 @@
+.
+
+---
+
+cadd to readme that https://github.com/hghalebi/category_theory_transformer_rs is an additional resource where we implement ML tiny model in Rust from scration with categroical theory
