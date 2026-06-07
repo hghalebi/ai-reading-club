@@ -1,0 +1,75 @@
+.
+
+---
+
+yes
+
+---
+
+Shall we add this paper to reading least? Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+
+---
+
+is it consitanse with our project?
+
+---
+
+https://arxiv.org/abs/2101.03961
+
+---
+
+so add to reading list
+
+---
+
+following next session are: 
+ 
+Cover Image for Category Theory for Tiny ML in Rust — Workshop 3
+7:00 PM
+Category Theory for Tiny ML in Rust — Workshop 3
+​
+Google Meet
+​
+12 guests
+
+​
+Add Tag
+​
+ML
+
+​
+ML in Rust
+
+​
+Rust
+
+Manage Event
++7
+Jun 25
+Thursday
+ 
+Cover Image for Datasheets for Datasets — The Hidden Contract Behind Every AI System
+6:00 PM
+Datasheets for Datasets — The Hidden Contract Behind Every AI System
+​
+Schoolab Saint-Lazare
+​
+4 guests
+
+​
+Add Tag
+Manage Event
+Jul 9
+Thursday
+ 
+Cover Image for AI Reading Club — Croissant: A Metadata Format for ML-Ready Datasets
+6:00 PM
+AI Reading Club — Croissant: A Metadata Format for ML-Ready Datasets
+​
+Schoolab Saint-Lazare
+​
+No guests
+
+​
+Add Tag
+Manage Event

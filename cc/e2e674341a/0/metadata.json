@@ -1,0 +1,95 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "cce2e674341a",
+  "session_id": "019ea2b6-d45e-7093-8adf-bdd494313d1a",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-07T15:50:04.356477052Z",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    "README.md",
+    "curriculum/README.md",
+    "docs/workshop-history.md",
+    "sessions/2026-06-11-datasheets.md",
+    "sessions/2026-06-25-croissant.md",
+    "sessions/2026-06-25-datasheets.md",
+    "sessions/2026-07-09-croissant.md",
+    "sessions/2026-07-09-flashattention.md",
+    "sessions/2026-07-23-flashattention.md",
+    "sessions/2026-07-23-llm-int8.md",
+    "sessions/2026-09-03-llm-int8.md",
+    "sessions/2026-09-03-lora.md",
+    "sessions/2026-09-17-lora.md",
+    "sessions/2026-09-17-qlora.md",
+    "sessions/2026-10-01-flan.md",
+    "sessions/2026-10-01-qlora.md",
+    "sessions/2026-10-15-flan.md",
+    "sessions/2026-10-15-lima.md",
+    "sessions/2026-10-29-lima.md",
+    "sessions/schedule-2026.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-5.5",
+  "turn_id": "6dceb61ba9ba",
+  "token_usage": {
+    "input_tokens": 131680,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 906880,
+    "output_tokens": 9335,
+    "api_call_count": 27
+  },
+  "session_metrics": {
+    "turn_count": 6
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-07T15:50:04.331063593Z",
+    "agent_lines": 218,
+    "agent_removed": 210,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 218,
+    "total_lines_changed": 428,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 536,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".codex/agents/entire-search.toml": 23,
+        ".codex/config.toml": 3,
+        ".codex/hooks.json": 52,
+        ".gemini/agents/entire-search.md": 28,
+        ".gemini/settings.json": 141,
+        ".opencode/plugins/entire.ts": 216,
+        ".pi/extensions/entire/index.ts": 73
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 539,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 543,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 754,
+      "agent_lines_removed": 210
+    }
+  ]
+}

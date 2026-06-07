@@ -1,0 +1,44 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "cce2e674341a",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    "README.md",
+    "curriculum/README.md",
+    "docs/workshop-history.md",
+    "sessions/2026-06-11-datasheets.md",
+    "sessions/2026-06-25-croissant.md",
+    "sessions/2026-06-25-datasheets.md",
+    "sessions/2026-07-09-croissant.md",
+    "sessions/2026-07-09-flashattention.md",
+    "sessions/2026-07-23-flashattention.md",
+    "sessions/2026-07-23-llm-int8.md",
+    "sessions/2026-09-03-llm-int8.md",
+    "sessions/2026-09-03-lora.md",
+    "sessions/2026-09-17-lora.md",
+    "sessions/2026-09-17-qlora.md",
+    "sessions/2026-10-01-flan.md",
+    "sessions/2026-10-01-qlora.md",
+    "sessions/2026-10-15-flan.md",
+    "sessions/2026-10-15-lima.md",
+    "sessions/2026-10-29-lima.md",
+    "sessions/schedule-2026.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/cc/e2e674341a/0/metadata.json",
+      "transcript": "/cc/e2e674341a/0/full.jsonl",
+      "content_hash": "/cc/e2e674341a/0/content_hash.txt",
+      "prompt": "/cc/e2e674341a/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 131680,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 906880,
+    "output_tokens": 9335,
+    "api_call_count": 27
+  }
+}
