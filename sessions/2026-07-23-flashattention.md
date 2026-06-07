@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023)
-- Link: https://arxiv.org/abs/2301.13688
-- Date: 2026-10-01 (Thursday)
+- Paper: FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
+- Link: https://arxiv.org/abs/2205.14135
+- Date: 2026-07-23 (Thursday)
 - Discussion lead:
 - Attendees:
 

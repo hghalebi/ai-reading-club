@@ -70,3 +70,6 @@ This curriculum is ordered so each paper gives useful context for the papers tha
 2. Deduplicating Training Data Makes Language Models Better (2022)
    - Why it is useful: demonstrates that data deduplication can improve both efficiency and quality, reinforcing the importance of dataset curation.
    - Paper: https://arxiv.org/abs/2107.06499
+3. Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (2021)
+   - Why it is useful: introduces sparse expert routing as a practical scaling strategy, showing how models can increase parameter capacity without activating every parameter for every token.
+   - Paper: https://arxiv.org/abs/2101.03961

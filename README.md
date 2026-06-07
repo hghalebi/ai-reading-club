@@ -10,7 +10,7 @@ Positioning:
 
 > From papers to executable understanding.
 
-The club reads foundational AI papers, discusses what they really mean, and connects them to modern LLM systems. Some sessions now pair with executable workshop artifacts in [`hghalebi/rust-ml`](https://github.com/hghalebi/rust-ml), especially for Rust, typed tiny ML, and category-theory-inspired reconstruction.
+The club reads foundational AI papers, discusses what they really mean, and connects them to modern LLM systems. Some sessions now pair with executable workshop artifacts in [`hghalebi/rust-ml`](https://github.com/hghalebi/rust-ml), especially for Rust, typed tiny ML, and category-theory-inspired reconstruction. An additional companion resource is [`hghalebi/category_theory_transformer_rs`](https://github.com/hghalebi/category_theory_transformer_rs), where we implement a tiny ML model in Rust from scratch through a category-theory lens.
 
 ## Logistics
 
@@ -59,6 +59,10 @@ See:
 12. QLoRA: Efficient Finetuning of Quantized LLMs (2023)
 13. The Flan Collection: Designing Data and Methods for Effective Instruction Tuning (2023)
 14. LIMA: Less Is More for Alignment (2023)
+
+### Supplemental Papers
+
+1. Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (2021)
 
 Detailed rationale and paper links are in `curriculum/README.md`.
 

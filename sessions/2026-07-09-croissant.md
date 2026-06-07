@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: LIMA: Less Is More for Alignment (2023)
-- Link: https://arxiv.org/abs/2305.11206
-- Date: 2026-10-15 (Thursday)
+- Paper: Croissant: A Metadata Format for ML-Ready Datasets (2024)
+- Link: https://arxiv.org/abs/2403.19546
+- Date: 2026-07-09 (Thursday)
 - Discussion lead:
 - Attendees:
 

@@ -8,6 +8,7 @@ These are upcoming or registration-only links that have not yet been folded into
 
 | Date | Track | Title / Topic | Link | Status |
 | --- | --- | --- | --- | --- |
+| TBD | Rust / ML workshop | Category Theory for Tiny ML in Rust - Workshop 3 | Google Meet | Planned / calendar event provided |
 | TBD | AI Reading Club / Rust-ML | Next event | https://luma.com/0ufoyoka | Planned / registration link |
 | TBD | AI Reading Club / Rust-ML | Next event | https://luma.com/rwwlmo0u | Planned / latest provided registration link |
 
@@ -103,7 +104,7 @@ Retrospective improvements to carry forward:
 - Strengthen the theory-code bridge earlier.
 - Show tiny Rust snippets right after the theory introduction.
 
-Likely next workshop direction:
+Next workshop direction:
 
 ```text
 Workshop 3:

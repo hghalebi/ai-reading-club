@@ -1,8 +1,8 @@
 # Session Notes
 
-- Paper: FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022)
-- Link: https://arxiv.org/abs/2205.14135
-- Date: 2026-07-09 (Thursday)
+- Paper: Datasheets for Datasets (2018)
+- Link: https://arxiv.org/abs/1803.09010
+- Date: 2026-06-25 (Thursday)
 - Discussion lead:
 - Attendees:
 
