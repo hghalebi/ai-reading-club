@@ -1,20 +1,25 @@
 # 2026 Session Schedule
 
-Cadence: sessions start on **2026-03-11**. Follow the dated schedule below for the March-April sessions. Starting with session 5, the club resumes on **Thursday, 2026-05-14** and then continues every two weeks on Thursdays.
+Cadence: sessions started on **2026-03-11**. Follow the dated schedule below for the March-April sessions. Session 5 was originally planned for **2026-05-14** and postponed to **2026-05-21**. Confirmed public history is also archived in `docs/workshop-history.md`.
 
 Breaks:
 
 - August 2026: no sessions (summer break)
 - Holidays: if a session falls on a holiday, skip that week and meet on the next scheduled session date.
 
+Planned registration links not yet assigned to a confirmed paper/session:
+
+- https://luma.com/0ufoyoka
+- https://luma.com/rwwlmo0u
+
 | # | Date | Paper | Notes |
 | --- | --- | --- | --- |
 | 1 | 2026-03-11 | Neural Machine Translation of Rare Words with Subword Units (2015) | `sessions/2026-03-11-bpe.md` |
 | 2 | 2026-03-26 | Attention Is All You Need (2017) | `sessions/2026-03-26-transformer.md` |
-| 3 | 2026-04-08 | What Does BERT Look At? An Analysis of BERT's Attention (2019) | `sessions/2026-04-08-bert-attention.md` |
+| 3 | 2026-04-09 | What Does BERT Look At? An Analysis of BERT's Attention (2019) | `sessions/2026-04-09-bert-attention.md` |
 | 4 | 2026-04-22 | Attention is not Explanation (2019) | `sessions/2026-04-22-attention-not-explanation.md` |
-| 5 | 2026-05-14 | Transformer Feed-Forward Layers Are Key-Value Memories (2020) | `sessions/2026-05-14-ffn-kv-memory.md` |
-| 6 | 2026-05-28 | The Curious Case of Neural Text Degeneration (2019) | `sessions/2026-05-28-text-degeneration.md` |
+| 5 | 2026-05-21 | Transformer Feed-Forward Layers Are Key-Value Memories (2020) | Originally planned for 2026-05-14; study page: https://rust-ml.com/materials/transformer-ffn-key-value-memories.html; lab: https://rust-ml.com/#/lab/kvmemory; `sessions/2026-05-21-ffn-kv-memory.md` |
+| 6 | 2026-06-04 | The Curious Case of Neural Text Degeneration (2019) | Held at Schoolab; study page: https://rust-ml.com/materials/neural-text-degeneration.html; `sessions/2026-06-04-text-degeneration.md` |
 | 7 | 2026-06-11 | Datasheets for Datasets (2018) | `sessions/2026-06-11-datasheets.md` |
 | 8 | 2026-06-25 | Croissant: A Metadata Format for ML-Ready Datasets (2024) | `sessions/2026-06-25-croissant.md` |
 | 9 | 2026-07-09 | FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (2022) | `sessions/2026-07-09-flashattention.md` |

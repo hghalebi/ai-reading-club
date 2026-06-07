@@ -8,7 +8,7 @@ Join the AI Reading Club: From BPE to Transformers to Alignment (14-paper curric
 
 I am starting an AI Reading Club to read and discuss the papers that shaped modern LLMs. The goal is to understand the engineering ideas behind the systems we use every day: tokenisation, self-attention, decoding, data foundations, efficiency, fine-tuning, and alignment.
 
-The club starts on **Wednesday, 2026-03-11**. From **Thursday, 2026-05-14** onwards, sessions continue every two weeks on Thursdays.
+The club starts on **Wednesday, 2026-03-11**. Later dates may move; confirmed history is tracked in `docs/workshop-history.md`.
 
 ### How it works
 

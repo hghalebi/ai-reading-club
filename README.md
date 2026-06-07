@@ -6,15 +6,22 @@
 
 A lightweight repository for running an AI Reading Club on foundational papers in modern language models.
 
+Positioning:
+
+> From papers to executable understanding.
+
+The club reads foundational AI papers, discusses what they really mean, and connects them to modern LLM systems. Some sessions now pair with executable workshop artifacts in [`hghalebi/rust-ml`](https://github.com/hghalebi/rust-ml), especially for Rust, typed tiny ML, and category-theory-inspired reconstruction.
+
 ## Logistics
 
 - Cadence: one paper every two weeks
 - Format: 10-15 minute volunteer overview, followed by about 45 minutes of discussion
 - Joining (Discord): https://discord.gg/5rAMsuVXXp
-- Schedule: `sessions/schedule-2026.md` (starts on 2026-03-11; from 2026-05-14 onwards, sessions continue on Thursdays; no sessions in August)
+- Schedule: `sessions/schedule-2026.md` (started on 2026-03-11; confirmed history is tracked in `docs/workshop-history.md`; no sessions in August)
 
 See:
 
+- `docs/workshop-history.md` (confirmed session and workshop archive)
 - `docs/announcement-template.md` (announcement template)
 - `docs/why-read.md` (motivation)
 - `docs/organizer-tips.md` (organiser tips)
@@ -67,6 +74,7 @@ Detailed rationale and paper links are in `curriculum/README.md`.
 - `curriculum/`: the ordered reading list + paper links
 - `docs/`: announcements and organiser guidance
 - `sessions/`: session notes and templates
+- `docs/workshop-history.md`: confirmed AI Reading Club and Rust/ML workshop history
 - `sections/`: workshop and implementation assets grouped by module, including BPE materials under `sections/tokenization/`
 - `sections/tokenization/ch02/`: BPE notebook walkthrough and assets
 - `sections/tokenization/rust_bpe_tokenizer/`: Rust BPE implementation used in the same module

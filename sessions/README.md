@@ -4,7 +4,8 @@ Create one issue per paper using the "Paper Session" template, then record sessi
 
 Schedule:
 
-- `sessions/schedule-2026.md` (starts on 2026-03-11; from 2026-05-14 onwards, sessions continue on Thursdays; no sessions in August)
+- `sessions/schedule-2026.md` (started on 2026-03-11; no sessions in August)
+- `docs/workshop-history.md` records confirmed AI Reading Club sessions and related Rust/ML workshops.
 
 Suggested filename pattern:
 
