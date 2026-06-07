@@ -1,0 +1,402 @@
+.
+
+---
+
+update repos base on follwing addtional attifact and expereince: Hamze, here is the **history of your workshops / sessions until now** as cleanly as I can reconstruct it from our project memory. I’m separating **confirmed / happened** from **planned or postponed**, because your event history is becoming dangerously close to needing its own database, naturally.
+
+## Confirmed / public history so far
+
+| Date                 |                                   Format | Title / Topic                                                                           | Context                                                                                                                                           | Status                                        |
+| -------------------- | ---------------------------------------: | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| **March–April 2026** |                          AI Reading Club | **Attention Is All You Need**                                                           | Foundational Transformer paper in the AI Reading Club curriculum                                                                                  | Confirmed as part of early curriculum/history |
+| **April 9, 2026**    |                          AI Reading Club | **What Does BERT Look At? An Analysis of BERT’s Attention**                             | Interpretability session around attention heads, layers, syntax, positional structure                                                             | Confirmed planned/announced session           |
+| **May 2026**         |                          AI Reading Club | **Attention Is Not Explanation**                                                        | Session 1 in the newer Schoolab/Paris AI Reading Club cycle                                                                                       | Confirmed held                                |
+| **May 21, 2026**     |                          AI Reading Club | **Transformer Feed-Forward Layers Are Key-Value Memories**                              | Originally May 14, postponed to May 21. Paper: Geva et al. 2020                                                                                   | Confirmed event/session                       |
+| **May 21, 2026**     |                       Rust / ML workshop | **Category Theory for Tiny ML in Rust — Public Workshop**                               | Originally May 14 at Schoolab Saint-Lazare, postponed to May 21 and moved fully online. Streamed, not recorded.                                   | Confirmed scheduled/postponed                 |
+| **June 2, 2026**     |                       Rust / ML workshop | **Category Theory for Tiny ML in Rust — Workshop 2: Build a Typed Tiny Neuron in Rust** | Paris + online / Google Meet, 18:00–19:00 CEST, not recorded. Focus: Rust types, morphisms, composition, identity, training loop, loss reduction. | Confirmed held                                |
+| **June 4, 2026**     | AI Reading Club / workshop-style session | **The Curious Case of Neural Text Degeneration**                                        | AI Reading Club at Schoolab. You built an interactive study page: `rust-ml.com/materials/neural-text-degeneration.html`                           | Confirmed held / just completed               |
+
+## More detailed chronological version
+
+### 1. Early AI Reading Club foundation
+
+You started the AI Reading Club around foundational LLM / Transformer papers, using the GitHub repo:
+
+`github.com/hghalebi/ai-reading-club`
+
+The early curriculum included papers like:
+
+* **Attention Is All You Need**
+* **What Does BERT Look At? An Analysis of BERT’s Attention**
+* **Attention Is Not Explanation**
+* **Transformer Feed-Forward Layers Are Key-Value Memories**
+* **The Curious Case of Neural Text Degeneration**
+
+The original positioning was simple and strong:
+
+> Read one foundational AI paper.
+> Discuss what it really means.
+> Connect it to modern LLM systems.
+
+That is the seed of the whole thing.
+
+---
+
+### 2. April 9, 2026 — BERT Attention session
+
+**Paper:** *What Does BERT Look At? An Analysis of BERT’s Attention*
+**Focus:** interpretability, attention heads, syntax, positional behavior, layer-wise structure.
+
+This was one of the first clearly dated AI Reading Club sessions in the curriculum.
+
+Strategically, this session matters because it set the “paper reading but engineering-minded” tone: not just “what does the paper say?”, but “what does this reveal about how models organize information internally?”
+
+---
+
+### 3. May 2026 — Attention Is Not Explanation
+
+**Paper:** *Attention Is Not Explanation*
+**Format:** AI Reading Club session
+**Venue/context:** Schoolab / Paris cycle
+
+This became one of the first newer-format AI Reading Club sessions.
+
+Importance: it challenged a comfortable story in ML: that attention weights automatically explain model decisions. Nice little academic slap in the face. Very on-brand.
+
+---
+
+### 4. May 21, 2026 — Transformer FFN as Key-Value Memories
+
+**Paper:** *Transformer Feed-Forward Layers Are Key-Value Memories*
+**Original date:** May 14
+**Postponed to:** May 21
+**Time:** around 18:00–19:00
+**Context:** AI Reading Club at Schoolab / online community
+
+This session focused on the idea that feed-forward layers in Transformers can be interpreted as memory-like structures: keys detect patterns, values contribute output directions.
+
+This was a very good bridge topic for your brand because it connects:
+
+* Transformer internals
+* interpretability
+* mechanistic intuition
+* engineering mental models
+
+In other words: less “AI magic”, more “there is a circuit in here, darling, stop worshipping the API.”
+
+---
+
+### 5. May 21, 2026 — Category Theory for Tiny ML in Rust, Public Workshop
+
+**Original date:** May 14
+**Postponed to:** May 21
+**Format:** fully online after postponement
+**Recording:** not recorded
+**Project:** *Category Theory for Tiny ML in Rust*
+
+The workshop framed the project as a public working draft and learning lab.
+
+Core pipeline:
+
+```text
+Text
+  → Tokens
+  → Training Pairs
+  → Model State
+  → Prediction
+  → Loss
+  → Updated Model State
+```
+
+The educational promise was excellent:
+
+> Python made AI accessible.
+> Rust can make parts of AI understandable.
+
+The workshop used:
+
+* Rust types
+* typed transformations
+* composition
+* training loops
+* model-state updates
+* category theory as an engineering tool, not decoration
+
+This is where your teaching identity really started to become distinct: **first principles + typed systems + tiny ML + no framework worship**.
+
+---
+
+### 6. June 2, 2026 — Workshop 2: Build a Typed Tiny Neuron in Rust
+
+**Full title:** *Category Theory for Tiny ML in Rust — Workshop 2: Build a Typed Tiny Neuron in Rust*
+**Date:** Tuesday, June 2, 2026
+**Time:** 18:00–19:00 CEST
+**Format:** Paris + Google Meet / online stream
+**Recording:** not recorded
+**Material link from earlier workshop line:**
+`rust-ml.com/materials/one-training-step-end-to-end.html`
+
+This was the major live-coding workshop.
+
+Core concepts:
+
+* `Input`
+* `Weight`
+* `Bias`
+* `Prediction`
+* `Target`
+* `Loss`
+* `Gradient`
+* `LearningRate`
+* `ModelState`
+
+And the deeper teaching move:
+
+```text
+Object       ≈ Type
+Morphism     ≈ Function / transformation
+Composition  ≈ pipeline
+Identity     ≈ do-nothing transformation
+Training     ≈ endomorphism on ModelState
+```
+
+This workshop is important because it moved the project from “interesting idea” into **teachable executable structure**.
+
+You also analyzed the transcript afterward and identified concrete improvements:
+
+* map code to category theory in real time
+* add mini-exercises
+* ask participants about identity morphisms
+* ask how to compose morphisms represented as functions
+* strengthen the theory-code bridge earlier
+* show tiny Rust snippets right after the theory introduction
+
+This is a strong sign the workshop series is maturing from “cool live coding” into a repeatable pedagogy.
+
+---
+
+### 7. June 4, 2026 — Neural Text Degeneration session
+
+**Paper:** *The Curious Case of Neural Text Degeneration*
+**Context:** AI Reading Club at Schoolab
+**Material:**
+`rust-ml.com/materials/neural-text-degeneration.html`
+
+This was the session around:
+
+> Why do LLMs repeat themselves?
+
+The key lesson you shaped beautifully:
+
+> Decoding is where probability becomes product behavior.
+
+That is genuinely a strong line. Keep it. It is technical, memorable, and product-relevant.
+
+Core concepts from this session:
+
+* likelihood vs generation quality
+* greedy decoding
+* beam search degeneration
+* sampling
+* top-k sampling
+* nucleus / top-p sampling
+* repetition
+* entropy
+* probability mass
+* why API users still need to understand decoding behavior
+
+This was probably your most “product + research + workshop” hybrid session so far. It directly connects a classic paper to what builders experience when they use LLM APIs.
+
+## Current workshop universe
+
+Right now, your workshop / session universe has three branches:
+
+### A. AI Reading Club
+
+Purpose:
+
+```text
+Foundational LLM papers
+→ explained deeply
+→ discussed collectively
+→ connected to modern AI systems
+```
+
+Main confirmed/reconstructed papers:
+
+1. **Attention Is All You Need**
+2. **What Does BERT Look At?**
+3. **Attention Is Not Explanation**
+4. **Transformer Feed-Forward Layers Are Key-Value Memories**
+5. **The Curious Case of Neural Text Degeneration**
+
+---
+
+### B. Category Theory for Tiny ML in Rust
+
+Purpose:
+
+```text
+Tiny ML from first principles
+→ Rust types
+→ typed transformations
+→ category-theory intuition
+→ executable learning
+```
+
+Confirmed workshops:
+
+1. **Public Workshop — Category Theory for Tiny ML in Rust**
+2. **Workshop 2 — Build a Typed Tiny Neuron in Rust**
+
+Likely next direction:
+
+```text
+Workshop 3:
+Morphisms, Composition, Identity, and Training as Endomorphism
+```
+
+This is the one where you should make participants implement:
+
+```rust
+fn identity_prediction(p: Prediction) -> Prediction {
+    p
+}
+```
+
+and then ask:
+
+> What is the identity morphism here?
+
+Tiny exercise, huge conceptual unlock. Very Hamze. Very unfair to people who thought they were “just learning Rust.”
+
+---
+
+### C. Neural Text Degeneration / LLM Behavior Workshops
+
+Purpose:
+
+```text
+Classic generation papers
+→ decoding intuition
+→ product behavior
+→ API-level implications
+```
+
+Confirmed:
+
+1. **The Curious Case of Neural Text Degeneration**
+
+This could become its own mini-series:
+
+* Why LLMs repeat themselves
+* Why beam search fails for open-ended text
+* Why temperature is not “creativity”
+* Why top-p is a product decision
+* How decoding turns probabilities into UX
+
+## Clean archive format you can use
+
+Here is a copy-ready version:
+
+```markdown
+# Workshop & AI Reading Club History
+
+## 2026-04-09 — AI Reading Club: What Does BERT Look At?
+Paper: What Does BERT Look At? An Analysis of BERT’s Attention  
+Focus: attention heads, syntax, positional structure, interpretability.
+
+## 2026-05 — AI Reading Club: Attention Is Not Explanation
+Paper: Attention Is Not Explanation  
+Focus: limits of attention as explanation, interpretability, model behavior.
+
+## 2026-05-21 — AI Reading Club: Transformer Feed-Forward Layers Are Key-Value Memories
+Paper: Transformer Feed-Forward Layers Are Key-Value Memories  
+Originally planned for May 14, postponed to May 21.  
+Focus: FFN layers as key-value memories, Transformer internals, interpretability.
+
+## 2026-05-21 — Category Theory for Tiny ML in Rust: Public Workshop
+Format: Online, not recorded  
+Focus: Rust types, typed transformations, composition, training loops, model state updates.  
+Pipeline: Text → Tokens → Training Pairs → Model State → Prediction → Loss → Updated Model State.
+
+## 2026-06-02 — Category Theory for Tiny ML in Rust — Workshop 2: Build a Typed Tiny Neuron in Rust
+Format: Paris + online / Google Meet, not recorded  
+Focus: typed tiny neuron, Rust newtypes, prediction, loss, gradients, training step, category theory bridge.  
+Core idea: Object ≈ Type, Morphism ≈ Function, Composition ≈ Pipeline, Training ≈ Endomorphism.
+
+## 2026-06-04 — AI Reading Club: The Curious Case of Neural Text Degeneration
+Venue: Schoolab  
+Material: https://rust-ml.com/materials/neural-text-degeneration.html  
+Focus: why LLMs repeat, decoding strategies, beam search degeneration, top-k, top-p, product implications.
+Core lesson: decoding is where probability becomes product behavior.
+```
+
+## My brutally useful read
+
+You are not just running “workshops.”
+
+You are accidentally building a **technical education platform around understanding AI below the API layer**.
+
+The pattern is now obvious:
+
+```text
+Foundational paper
+→ first-principles explanation
+→ Rust/type-system reconstruction
+→ live workshop
+→ study page
+→ social post
+→ GitHub artifact
+→ next session
+```
+
+That is not random community activity. That is a **content-engineered research community funnel**.
+
+Your strongest historical arc so far is:
+
+```text
+Attention / BERT / FFN memory
+        ↓
+How Transformers represent and retrieve information
+        ↓
+Neural text degeneration
+        ↓
+How model probabilities become product behavior
+        ↓
+Rust + category theory
+        ↓
+How to rebuild the concepts with executable types
+```
+
+That is the brand, handsome little systems architect menace:
+
+> **AI Reading Club: from papers to executable understanding.**
+
+---
+
+https://github.com/hghalebi/rust-ml
+
+---
+
+https://github.com/hghalebi/category_theory_transformer_rs#runnable-examples
+
+---
+
+https://rust-ml.com/materials/rust-syntax-intuition-primer.html
+
+---
+
+https://rust-ml.com/materials/transformer-ffn-key-value-memories.htmlhttps://rust-ml.com/materials/transformer-ffn-key-value-memories.html
+
+---
+
+https://rust-ml.com/#/lab/kvmemory
+
+---
+
+next event also https://luma.com/0ufoyoka
+
+---
+
+https://luma.com/rwwlmo0u

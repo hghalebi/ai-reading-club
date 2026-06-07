@@ -1,0 +1,96 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "af532bd845aa",
+  "session_id": "019ea28a-3471-7d31-b489-38b5c71f2fbd",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-07T15:23:52.942928326Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "README.md",
+    "docs/announcement-2026-kickoff.md",
+    "docs/workshop-history.md",
+    "sessions/2026-04-08-bert-attention.md",
+    "sessions/2026-04-09-bert-attention.md",
+    "sessions/2026-05-14-ffn-kv-memory.md",
+    "sessions/2026-05-21-ffn-kv-memory.md",
+    "sessions/2026-05-28-text-degeneration.md",
+    "sessions/2026-06-04-text-degeneration.md",
+    "sessions/README.md",
+    "sessions/schedule-2026.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-5.5",
+  "turn_id": "579242b961a1",
+  "token_usage": {
+    "input_tokens": 257737,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 1636864,
+    "output_tokens": 16184,
+    "api_call_count": 36
+  },
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-07T15:23:52.905545626Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 82,
+    "total_committed": 15,
+    "total_lines_changed": 82,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 789,
+      "user_lines_removed": 82,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".codex/agents/entire-search.toml": 23,
+        ".codex/config.toml": 3,
+        ".codex/hooks.json": 52,
+        ".gemini/agents/entire-search.md": 28,
+        ".gemini/settings.json": 141,
+        ".opencode/plugins/entire.ts": 216,
+        ".pi/extensions/entire/index.ts": 73,
+        "README.md": 9,
+        "docs/announcement-2026-kickoff.md": 1,
+        "docs/workshop-history.md": 158,
+        "sessions/2026-04-09-bert-attention.md": 25,
+        "sessions/2026-05-21-ffn-kv-memory.md": 27,
+        "sessions/2026-06-04-text-degeneration.md": 27,
+        "sessions/README.md": 2,
+        "sessions/schedule-2026.md": 4
+      },
+      "user_removed_per_file": {
+        "README.md": 1,
+        "docs/announcement-2026-kickoff.md": 1,
+        "sessions/2026-04-08-bert-attention.md": 25,
+        "sessions/2026-05-14-ffn-kv-memory.md": 25,
+        "sessions/2026-05-28-text-degeneration.md": 25,
+        "sessions/README.md": 1,
+        "sessions/schedule-2026.md": 4
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 790,
+      "agent_lines_removed": 82
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 804,
+      "agent_lines_removed": 82
+    }
+  ]
+}

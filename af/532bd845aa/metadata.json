@@ -1,0 +1,35 @@
+{
+  "cli_version": "0.6.3",
+  "checkpoint_id": "af532bd845aa",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "README.md",
+    "docs/announcement-2026-kickoff.md",
+    "docs/workshop-history.md",
+    "sessions/2026-04-08-bert-attention.md",
+    "sessions/2026-04-09-bert-attention.md",
+    "sessions/2026-05-14-ffn-kv-memory.md",
+    "sessions/2026-05-21-ffn-kv-memory.md",
+    "sessions/2026-05-28-text-degeneration.md",
+    "sessions/2026-06-04-text-degeneration.md",
+    "sessions/README.md",
+    "sessions/schedule-2026.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/af/532bd845aa/0/metadata.json",
+      "transcript": "/af/532bd845aa/0/full.jsonl",
+      "content_hash": "/af/532bd845aa/0/content_hash.txt",
+      "prompt": "/af/532bd845aa/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 257737,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 1636864,
+    "output_tokens": 16184,
+    "api_call_count": 36
+  }
+}
